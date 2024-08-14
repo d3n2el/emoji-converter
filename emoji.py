@@ -1,6 +1,8 @@
 import emoji
 def main():
     em= input("Input:")
-    print(emoji.emojize(em))
+    y= emoji.emojize(em)
+    print(y)
+    print(type(em))
 
 main()
